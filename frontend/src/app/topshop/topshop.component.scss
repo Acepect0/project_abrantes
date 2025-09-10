@@ -1,0 +1,11 @@
+.badge {
+    top: 5%; 
+    left: 4%;
+}
+
+.custom-badge {
+  --bs-bg-opacity: 1;          /* ensure opacity works correctly */
+  background-color: #B87333;
+  color: white;
+}
+
