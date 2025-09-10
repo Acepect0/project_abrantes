@@ -1,0 +1,29 @@
+#searchbar {
+    border-radius: 17px 0 0 17px;
+    border: none;
+    outline: none;
+}
+
+#searchbutton {
+    border-radius: 0 17px 17px 0px;
+}
+
+.bg-image{
+    background-image: url('/assets/imgs/home_banner.jpg');
+    position: relative;
+}
+
+.bg-image .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* dark overlay */
+  z-index: 1;
+}
+
+.bg-image .content {
+  position: relative;
+  z-index: 2; /* makes sure text stays above overlay */
+}
