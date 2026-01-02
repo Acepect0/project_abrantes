@@ -2,6 +2,18 @@
   "name": "project_abrantes",
   "version": "1.0.0",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Acepect0/project_abrantes.git"
+  },
+  "keywords": [
+    "marketplace",
+    "store",
+    "personal",
+    "project"
+  ],
+  "author": "Rúben Gaspar aka \"Acepect0\"",
+  "license": "MIT",
   "scripts": {
     "build": "vite build",
     "dev": "vite",
@@ -76,18 +88,6 @@
     }
   },
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Acepect0/project_abrantes.git"
-  },
-  "keywords": [
-    "marketplace",
-    "store",
-    "personal",
-    "project"
-  ],
-  "author": "Rúben Gaspar aka \"Acepect0\"",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Acepect0/project_abrantes/issues"
   },
