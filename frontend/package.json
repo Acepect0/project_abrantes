@@ -1,23 +1,11 @@
 {
-  "name": "project_abrantes",
-  "version": "1.0.0",
+  "name": "@figma/my-make-file",
+  "private": true,
+  "version": "0.0.1",
   "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Acepect0/project_abrantes.git"
-  },
-  "keywords": [
-    "marketplace",
-    "store",
-    "personal",
-    "project"
-  ],
-  "author": "Rúben Gaspar aka \"Acepect0\"",
-  "license": "MIT",
   "scripts": {
     "build": "vite build",
-    "dev": "vite",
-    "preview": "vite preview"
+    "dev": "vite"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
@@ -60,8 +48,6 @@
     "lucide-react": "0.487.0",
     "motion": "12.23.24",
     "next-themes": "0.4.6",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
     "react-day-picker": "8.10.1",
     "react-dnd": "16.0.1",
     "react-dnd-html5-backend": "16.0.1",
@@ -82,15 +68,21 @@
     "tailwindcss": "4.1.12",
     "vite": "6.3.5"
   },
+  "peerDependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    },
+    "react-dom": {
+      "optional": true
+    }
+  },
   "pnpm": {
     "overrides": {
       "vite": "6.3.5"
     }
-  },
-  "main": "index.js",
-  "bugs": {
-    "url": "https://github.com/Acepect0/project_abrantes/issues"
-  },
-  "homepage": "https://github.com/Acepect0/project_abrantes#readme",
-  "description": ""
+  }
 }

@@ -1,0 +1,8 @@
+{
+  "name": "project_abrantes-parent",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd frontend && npm run dev"
+  }
+}
